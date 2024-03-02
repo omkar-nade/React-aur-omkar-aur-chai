@@ -61,5 +61,40 @@ const g_name= ["Geeta", "Seeta"]
 
 
 
+// let x= {}, y = {name:"Ronny"},z = {name:"John"};
+
+//  x[y] = {name:"Vivek"}; // y.toString() 
+//  x[z] = {name:"Akki"}; 
+
+// console.log(x[y]);
 
 
+// let obj = {a:1,"b":5,c:2,d:34}
+// console.log(obj["c"])
+
+// y.toString() 
+// "[Object Object]""
+// x"[Object Object]"
+
+//z.toString() 
+// "[Object Object]"
+// z"[Object Object]"
+
+
+
+// let a = true;
+// let b = 'true'; 
+
+// console.log((a == b));   
+// console.log((a === b));
+
+let userInput = "Please enter a string"
+
+let words = userInput.split(" ");
+console.log(words)
+
+let reversedWords = words.reverse();
+console.log(reversedWords)
+
+let output = reversedWords.join(" ");
+console.log(output)
