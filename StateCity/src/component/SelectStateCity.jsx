@@ -1,10 +1,12 @@
 import React,{useState} from 'react'
 import { indianData } from '../data'
 
-function SelectStateCity(){
+function SelectStateCity({state, setState, city, setCity}){
 
-    const [state, setState] = useState("state")
-    const [city, setCity] = useState("city")
+    // const [state, setState] = useState("state")
+    // const [city, setCity] = useState("city")
+    //  console.log(state)
+    //  console.log(city)
 
     
   return (
