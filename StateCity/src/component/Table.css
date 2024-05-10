@@ -1,0 +1,25 @@
+/* Table styles */
+.table {
+    width: 100%; /* Optional: Set a width for the table */
+    border-collapse: collapse; /* Ensures cells border doesn't overlap */
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    border: 1px solid #ddd; /* Table cell borders */
+  }
+  
+  .table th {
+    text-align: center; /* Center table header text */
+    background-color: #df460f; /* Optional: Set background color for headers */
+  }
+  
+  /* Optional styles for zebra striping and hover effect */
+  .table tbody tr:nth-child() {
+    background-color: gray; /* Zebra stripe for even rows */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #cadd9a45; /* Hover effect for table rows */
+  }
